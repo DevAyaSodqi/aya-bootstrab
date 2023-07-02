@@ -1,0 +1,324 @@
+body{
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    overflow-y: scroll; /* Add vertical scrollbar */
+}
+
+
+:root{
+    --boady-bg:#19283f;
+    --color-nav-link:#27d1cc;
+    --color-text-nav:#fff;
+    --color-bt-bg:#ff3150;
+    --color-bt-color:#FFC400;
+    --p-color:rgba(255, 255, 255, 0.5);
+    --p2-color:rgba(98, 98, 98, 0.5) ;
+    --card-title: #FFC400;
+    --tilt-h1:#000;
+    --bg-section:#eff7fa;
+    --color-card-title:rgba(94, 93, 93, 0.5);
+    --color-meet:#c5e7f4;
+    --color-p-site:#777b7d;
+}
+
+.navbar{
+    background-color: var(--boady-bg);
+}
+
+.navbar .nav-item .nav-link:hover,
+.navbar .nav-item .nav-link:focus,
+.navbar .nav-item .nav-link:active{
+  color: var(--color-nav-link);
+ 
+}
+
+.navbar .nav-item .nav-link{
+    color: var(--color-text-nav);
+}
+
+
+
+
+.btn{
+    background-color: var(--color-bt-bg);
+    color:var(--color-bt-color) ;
+    border: none;
+}
+
+.btn:hover{
+    color:var(--color-bt-color) ;
+    background-color: var( --color-bt-bg);  
+ 
+}
+
+ 
+.search {
+    border-left: #27d1cc solid 1px;
+}
+
+
+.d-flex {
+    height: 100vh;
+    text-align: center;
+    background-color: var(--boady-bg);
+}
+
+
+.d-flex h1 {
+color: var(--color-text-nav);
+}
+
+.d-flex p {
+    color: var(--p-color);
+}
+
+
+.colum-container{
+    background-color: var(--color-text-nav);
+    text-align: center;
+   
+  
+
+}
+
+.colum-container h1{
+    color: var(--tilt-h1);
+}
+
+.colum-container p{
+    color: var(--p2-color);
+}
+
+
+
+.card{
+    border: none;
+}  
+
+.card .card-body .card-title{
+  color: var(--card-title);
+}
+
+
+.content-site{
+  background-color: var(--bg-section);
+  text-align: center;
+
+}
+
+.content-site h1{
+    color: var(--tilt-h1);
+}
+
+.content-site p{
+    color: var(--p2-color);
+}
+
+.nav{
+    list-style: none;
+   
+}
+
+.nav .nav-item .nav-link{
+    color: var(--tilt-h1);
+}
+
+.nav .nav-item .nav-link:hover,
+.nav .nav-item .nav-link:focus,
+.nav .nav-item .nav-link:active{
+  color: var( --color-bt-bg);
+ 
+}
+
+.container{
+margin-top: 20px;
+}
+
+.container .row img{
+    border: #fff 7px solid;
+}
+
+.btn{
+    margin-top: 7px;   
+}
+
+
+.content-site-item{
+    background-color: var(--color-text-nav);
+    text-align: center;
+  
+  }
+
+ .content-site-item .figure h5{
+    color: var(--p2-color);
+ }
+
+
+ .content-site-item .figure p{
+    color: var(--p2-color);
+ }
+
+ .card .card-des{
+    color: var(--p2-color);
+ }
+
+
+ .card .card-body .card-image .img-fluid{
+    max-width: 100%;
+    height: auto;
+ }
+
+
+ img ,svg{
+    vertical-align: middle;
+ }
+
+
+ .content-site .figure h2{
+    color: var(--color-bt-color);
+    margin-top: 7rem;
+    font-weight: 900;
+  
+ }
+
+ .content-site.figure p .des{
+    color: var(--color-p-site);
+ }
+
+ .row .col .card{
+    width: 20rem;
+    margin: 20px;
+ }
+
+
+ .row .col .card .card-body {
+    background-color: var(--color-nav-link);
+   
+    
+ }
+
+
+ .row .col .card .card-body .card-title{
+    font-size: 20px;
+    color: var(--color-text-nav);
+    
+ }
+
+
+ .row .col .card .card-footer{
+    font-size: 18px;
+    color: var(--color-text-nav);
+    background-color: var(--color-text-nav);
+    
+ }
+
+
+ .colum-container .container .row{
+    margin-top: 15px;
+    height:20vh;
+    align-items: center;
+    
+ }
+
+ .section-start .d-flex{
+    height: 40vh;
+    align-items: center;
+   
+ }
+
+
+ .section-start .d-flex h1{
+   margin-top: 20px;
+    align-items: center;
+    color: var(--color-text-nav);
+   
+ }
+
+
+ .section-start .d-flex p{
+   
+     align-items: center;
+     color: var(--color-p-site);
+     font-weight: 800;
+    
+  }
+
+
+  .section-start .d-flex button{
+   
+    align-items: center;
+    font-weight: 500;
+   
+ } 
+
+
+
+ .row .col .card-data {
+   border: #cfd1d2 solid 1px;
+   margin: 20px;
+   border-radius: 5px;
+ }
+
+
+
+
+ .row .col .card-data  .card-body .card-date{
+    margin: 10px;
+    text-align: start;
+    color: var(--p2-color);
+ }
+
+
+ .row .col .card-data .card-body p{
+    margin: 10px;
+    text-align: start;
+    color: black;
+ } 
+
+
+ .section-subscribe{
+    height: 30vh;
+    align-items: center;
+    margin-top: 50px;
+    background-color: var(--color-bt-color);
+   
+ }
+
+
+ .section-subscribe .container .row .col{
+    justify-content: center;
+    margin-top: 50px;
+ }
+
+ input{
+    border: none;
+    background: none;
+    
+    
+ }
+ hr{
+    color: var(--color-text-nav);
+    
+ }
+
+ ::placeholder{
+    color: white;
+    text-align: start;
+ }
+
+ #darkB{
+    background-color: #000;
+ }
+
+
+
+ .footer-section{
+    height: 50vh;
+    text-align: start;
+    background-color: var(--boady-bg);
+   
+ }
+ 
+
+
+
+
